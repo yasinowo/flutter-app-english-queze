@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task/screens/result_screen.dart';
 import 'package:task/theme/colors.dart';
 import 'package:task/components/circle_progras.dart';
 import 'package:task/components/header.dart';
@@ -63,20 +64,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       currentQuestionIndex++;
                     } else {
                       // پایان تست
-                      showDialog(
-                        context: context,
-                        builder: (_) => AlertDialog(
-                          title: const Text('Finished'),
-                          content: Text(
-                            'You have completed all questions.\nYour score is $score out of ${questions.length}.',
-                            style: const TextStyle(fontSize: 16),
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => ResultScreen(
+                            score: score,
+                            totalQuestions: questions.length,
                           ),
-                          actions: [
-                            TextButton(
-                              onPressed: () => Navigator.of(context).pop(),
-                              child: const Text('Ok'),
-                            ),
-                          ],
                         ),
                       );
                     }
@@ -107,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
           width: width,
           child: Stack(
             children: [
-              Header(width: width, height: height),
+              Header(width: width, height: height * 0.3),
               question(height, width, currentQuestion, currentQuestionIndex),
               option(height, width, currentQuestion),
             ],
