@@ -14,56 +14,56 @@ final List<Map<String, dynamic>> questionsJson = [
     "options": ["since", "for", "at", "in"],
     "answerIndex": 1,
   },
-  // {
-  //   "question": "What is the past tense of 'teach'?",
-  //   "options": ["teached", "taught", "teach", "teaches"],
-  //   "answerIndex": 1,
-  // },
-  // {
-  //   "question": "Choose the correct sentence:",
-  //   "options": [
-  //     "He don't like coffee.",
-  //     "He doesn't likes coffee.",
-  //     "He doesn't like coffee.",
-  //     "He not likes coffee.",
-  //   ],
-  //   "answerIndex": 2,
-  // },
-  // {
-  //   "question": "Which word means the opposite of 'difficult'?",
-  //   "options": ["hard", "simple", "complex", "tough"],
-  //   "answerIndex": 1,
-  // },
-  // {
-  //   "question": "Fill in: We were very tired, ____ we went to bed early.",
-  //   "options": ["so", "but", "because", "although"],
-  //   "answerIndex": 0,
-  // },
-  // {
-  //   "question": "What does 'to break the ice' mean?",
-  //   "options": [
-  //     "To start a conversation in a friendly way",
-  //     "To cause trouble",
-  //     "To make someone angry",
-  //     "To fail at something",
-  //   ],
-  //   "answerIndex": 0,
-  // },
-  // {
-  //   "question": "Choose the correct word: I am looking forward ____ you soon.",
-  //   "options": ["see", "seeing", "to see", "seen"],
-  //   "answerIndex": 1,
-  // },
-  // {
-  //   "question": "Which sentence is correct?",
-  //   "options": [
-  //     "She can to play the piano.",
-  //     "She cans play the piano.",
-  //     "She can play the piano.",
-  //     "She play can the piano.",
-  //   ],
-  //   "answerIndex": 2,
-  // },
+  {
+    "question": "What is the past tense of 'teach'?",
+    "options": ["teached", "taught", "teach", "teaches"],
+    "answerIndex": 1,
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "He don't like coffee.",
+      "He doesn't likes coffee.",
+      "He doesn't like coffee.",
+      "He not likes coffee.",
+    ],
+    "answerIndex": 2,
+  },
+  {
+    "question": "Which word means the opposite of 'difficult'?",
+    "options": ["hard", "simple", "complex", "tough"],
+    "answerIndex": 1,
+  },
+  {
+    "question": "Fill in: We were very tired, ____ we went to bed early.",
+    "options": ["so", "but", "because", "although"],
+    "answerIndex": 0,
+  },
+  {
+    "question": "What does 'to break the ice' mean?",
+    "options": [
+      "To start a conversation in a friendly way",
+      "To cause trouble",
+      "To make someone angry",
+      "To fail at something",
+    ],
+    "answerIndex": 0,
+  },
+  {
+    "question": "Choose the correct word: I am looking forward ____ you soon.",
+    "options": ["see", "seeing", "to see", "seen"],
+    "answerIndex": 1,
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She can to play the piano.",
+      "She cans play the piano.",
+      "She can play the piano.",
+      "She play can the piano.",
+    ],
+    "answerIndex": 2,
+  },
   // {
   //   "question":
   //       "Fill in the blank: The movie was very ____, I couldn't stop laughing.",

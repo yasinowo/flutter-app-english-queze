@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task/screens/home_screen.dart';
+import 'package:task/screens/rank_screen.dart';
 import 'package:task/screens/result_screen.dart';
 
 void main() {

@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
           width: width,
           child: Stack(
             children: [
-              Header(width: width, height: height * 0.3),
+              Header(width: width, height: height * 0.3, showFilter: true),
               question(height, width, currentQuestion, currentQuestionIndex),
               option(height, width, currentQuestion),
             ],

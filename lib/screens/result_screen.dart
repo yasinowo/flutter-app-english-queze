@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task/components/header.dart';
+import 'package:task/screens/rank_screen.dart';
 import 'package:task/theme/colors.dart';
 import 'package:task/theme/font.dart';
 
@@ -19,7 +20,9 @@ class ResultScreen extends StatelessWidget {
         height: height * 0.06,
         child: ElevatedButton(
           onPressed: () async {
-            await Future.delayed(const Duration(seconds: 3));
+            Navigator.of(context).push(
+              MaterialPageRoute(builder: (context) => RankScreen(score: score)),
+            );
           },
           style: ElevatedButton.styleFrom(
             backgroundColor: AppColors.blueColor,
